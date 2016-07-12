@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoUI_Nexus4_Nexus5</string>
+    <string name="title">ESTIMATE PRICE</string>
+    <string name="STAINS">STAIN</string>
+    <string name="STAINS_DES">Normal wash x 1.5 Times</string>
+    <string name="EXPRESS_SERVICE">EXPRESS SERVICE</string>
+    <string name="EXPRESS_SERVICE_DES">Normal wash x 2 Times</string>
+    <string name="PRESERENCE_OF_DYING_SERVICE">PRESERENCE OF DYING SERVICE</string>
+    <string name="PRESERENCE_OF_DYING_SERVICE_DES">Normal wash x 2 Times</string>
+    <string name="PRESSING_ONLY">PRESSING ONLY</string>
+    <string name="PRESSING_ONLY_DES">Normal wash x 2/3 Times</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

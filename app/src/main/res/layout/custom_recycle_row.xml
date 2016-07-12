@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/layoutRow"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/CUSTOM_RECYCLEVIEW_ROW_text_size"
+        android:paddingLeft="@dimen/CUSTOM_RECYCLEVIEW_ROW_padding_left"
+        android:layout_width="@dimen/TOP_RIGHT_button_width"
+        android:layout_height="@dimen/CUSTOM_RECYCLEVIEW_ROW_height" />
+    <TextView
+        android:id="@+id/tvPrices"
+        android:textSize="@dimen/CUSTOM_RECYCLEVIEW_ROW_text_size"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/CUSTOM_RECYCLEVIEW_ROW_padding_left"
+        android:layout_width="@dimen/TOP_LEFT_button_width"
+        android:layout_height="@dimen/CUSTOM_RECYCLEVIEW_ROW_height" />
+</LinearLayout>
