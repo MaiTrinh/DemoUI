@@ -11,7 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
 import com.example.maitrinh.demoui_nexus4_nexus5.Utils.APIService;
-import com.example.maitrinh.demoui_nexus4_nexus5.Utils.RetrofitBuilder;
+import com.example.maitrinh.demoui_nexus4_nexus5.Utils.RetrofitConStruc;
 import com.example.maitrinh.demoui_nexus4_nexus5.models.Datum;
 import com.example.maitrinh.demoui_nexus4_nexus5.models.ServiceInfo;
 
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loadServiceInfo(){
-        final APIService service = RetrofitBuilder.getServiceInfo();
+        final APIService service = RetrofitConStruc.getServiceInfo();
         Call<ServiceInfo> call = service.serviceRequestInfor();
         call.enqueue(new Callback<ServiceInfo>() {
             @Override
