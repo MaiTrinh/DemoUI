@@ -22,24 +22,12 @@ public class OneFragment extends Fragment {
     List<WashService> serviceList = new ArrayList<>();
     RecyclerView recyclerView;
     CustomAdapter adapter;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        serviceList.add(new WashService("normal wash","10000",false));
-        serviceList.add(new WashService("normal wash 1","11000",true));
-        serviceList.add(new WashService("normal wash 2","12000",false));
-        serviceList.add(new WashService("normal wash 3","13000",true));
-        serviceList.add(new WashService("normal wash 4","14000",false));
-        serviceList.add(new WashService("normal wash 5","15000",true));
-        serviceList.add(new WashService("normal wash 6","16000",false));
-        serviceList.add(new WashService("normal wash 7","17000",true));
-        serviceList.add(new WashService("normal wash 8","18000",false));
-        serviceList.add(new WashService("normal wash 9","19000",true));
-        serviceList.add(new WashService("normal wash 10","20000",false));
-        serviceList.add(new WashService("normal wash 11","21000",true));
-        serviceList.add(new WashService("normal wash 12","22000",false));
-        serviceList.add(new WashService("normal wash 13","23000",true));
-        Log.d("fragment 1","check list size : " + serviceList.size());
+
+        Log.d("fragment 1","check normal list size : " + MainActivity.normalWashList.size());
     }
 
     @Override
@@ -51,7 +39,7 @@ public class OneFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setHasFixedSize(true);
 //        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL_LIST));
-        adapter = new CustomAdapter(getContext(),serviceList);
+        adapter = new CustomAdapter(getContext(),MainActivity.normalWashList);
         recyclerView.setAdapter(adapter);
         return v;
     }

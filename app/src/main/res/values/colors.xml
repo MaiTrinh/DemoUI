@@ -10,7 +10,7 @@
     <color name="tab_blue_text">#f06a9f</color>
 
     <color name="textColorPrimary">#FFFFFF</color>
-    <color name="windowBackground">#FFFFFF</color>
+    <color name="windowBackground">#63B5F7</color>
     <color name="navigationBarColor">#fff</color>
 
     <color name="recycleview_row">#E3E3E3</color>

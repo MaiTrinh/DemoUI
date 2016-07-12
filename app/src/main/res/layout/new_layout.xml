@@ -141,7 +141,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/navigation_bar_height"
         app:tabMode="fixed"
-        app:tabTextColor="@color/tab_blue_text"
+        app:tabTextColor="@color/toolbar_background"
         app:tabSelectedTextColor="@color/white"
         app:tabGravity="fill"/>
 
